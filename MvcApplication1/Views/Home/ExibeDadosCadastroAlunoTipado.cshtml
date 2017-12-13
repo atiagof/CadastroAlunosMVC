@@ -1,0 +1,20 @@
+﻿@model MvcApplication1.Models.ModelAluno
+
+@{
+    ViewBag.Title = "ExibeDadosCadastroAlunoTipado";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<fieldset>
+    <legend>Exibe dados do aluno</legend>
+    <div>
+        <strong>Id Aluno: </strong>@Model.id_Aluno
+    </div>
+    <div>
+        <strong>Nome: </strong>@Model.Nome_Aluno
+    </div>
+    <div>
+        <strong>Email: </strong>@Model.Email_Aluno
+    </div>
+</fieldset>
